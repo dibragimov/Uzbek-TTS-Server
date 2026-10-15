@@ -1,0 +1,175 @@
+[
+  {
+    "label": "01_short_ack",
+    "raw": "Ha, albatta.",
+    "normalized": "Ha, albatta.",
+    "telecom_entities": []
+  },
+  {
+    "label": "02_greeting",
+    "raw": "Assalomu alaykum, Beeline kompaniyasiga xush kelibsiz.",
+    "normalized": "Assalomu alaykum, Beeline kompaniyasiga xush kelibsiz.",
+    "telecom_entities": []
+  },
+  {
+    "label": "03_balance_amount",
+    "raw": "Hisobingizda 25 000 so'm mavjud.",
+    "normalized": "Hisobingizda yigirma besh ming so'm mavjud.",
+    "telecom_entities": []
+  },
+  {
+    "label": "04_price",
+    "raw": "Tarifning oylik abonent to'lovi 49 900 so'm.",
+    "normalized": "Tarifning oylik abonent to'lovi qirq to'qqiz ming to'qqiz yuz so'm.",
+    "telecom_entities": []
+  },
+  {
+    "label": "05_phone_number",
+    "raw": "Sizning aloqa raqamingiz 90 123 45 67.",
+    "normalized": "Sizning aloqa raqamingiz to'qson, bir yuz yigirma uch, qirq besh, oltmish yetti.",
+    "telecom_entities": [
+      {
+        "kind": "phone_local",
+        "raw": "90 123 45 67",
+        "spoken": "to'qson, bir yuz yigirma uch, qirq besh, oltmish yetti"
+      }
+    ]
+  },
+  {
+    "label": "06_date",
+    "raw": "Xizmat 15.10.2026 sanasidan boshlab faol bo'ladi.",
+    "normalized": "Xizmat o'n besh oktabr ikki ming yigirma olti sanasidan boshlab faol bo'ladi.",
+    "telecom_entities": []
+  },
+  {
+    "label": "07_time",
+    "raw": "Operator siz bilan soat 14:30 da bog'lanadi.",
+    "normalized": "Operator siz bilan soat o'n to'rt o'ttiz da bog'lanadi.",
+    "telecom_entities": []
+  },
+  {
+    "label": "08_ordinal",
+    "raw": "Bu sizning uchinchi murojaatingiz.",
+    "normalized": "Bu sizning uchinchi murojaatingiz.",
+    "telecom_entities": []
+  },
+  {
+    "label": "09_internet_volume",
+    "raw": "Tarifga 25 gigabayt internet kiritilgan.",
+    "normalized": "Tarifga yigirma besh gigabayt internet kiritilgan.",
+    "telecom_entities": []
+  },
+  {
+    "label": "10_minutes",
+    "raw": "Sizga 1 500 daqiqa qo'ng'iroq limiti beriladi.",
+    "normalized": "Sizga ming besh yuz daqiqa qo'ng'iroq limiti beriladi.",
+    "telecom_entities": []
+  },
+  {
+    "label": "11_sms",
+    "raw": "Tarif doirasida 500 SMS mavjud.",
+    "normalized": "Tarif doirasida besh yuz es em es mavjud.",
+    "telecom_entities": [
+      {
+        "kind": "technology",
+        "raw": "SMS",
+        "spoken": "es em es"
+      }
+    ]
+  },
+  {
+    "label": "12_tariff_combo",
+    "raw": "Oyiga 75 000 so'm evaziga 30 gigabayt, 2 000 daqiqa va 1 000 SMS olasiz.",
+    "normalized": "Oyiga yetmish besh ming so'm evaziga o'ttiz gigabayt, ikki ming daqiqa va ming es em es olasiz.",
+    "telecom_entities": [
+      {
+        "kind": "technology",
+        "raw": "SMS",
+        "spoken": "es em es"
+      }
+    ]
+  },
+  {
+    "label": "13_delivery",
+    "raw": "SIM-karta 18.10.2026 kuni soat 10:00 dan 12:00 gacha yetkazib beriladi.",
+    "normalized": "sim-karta o'n sakkiz oktabr ikki ming yigirma olti kuni soat o'n dan o'n ikki gacha yetkazib beriladi.",
+    "telecom_entities": [
+      {
+        "kind": "technology",
+        "raw": "SIM",
+        "spoken": "sim"
+      }
+    ]
+  },
+  {
+    "label": "14_roaming",
+    "raw": "Rouming xizmati Rossiya, Qozog'iston va Turkiyada mavjud.",
+    "normalized": "Rouming xizmati Rossiya, Qozog'iston va Turkiyada mavjud.",
+    "telecom_entities": []
+  },
+  {
+    "label": "15_app_name",
+    "raw": "Beeline Uzbekistan ilovasida My Beeline bo'limini oching.",
+    "normalized": "Beeline Uzbekistan ilovasida My Beeline bo'limini oching.",
+    "telecom_entities": []
+  },
+  {
+    "label": "16_technology",
+    "raw": "Telefoningizda LTE yoki 4G tarmog'ini yoqing.",
+    "normalized": "Telefoningizda el ti i yoki to'rt ji tarmog'ini yoqing.",
+    "telecom_entities": [
+      {
+        "kind": "technology",
+        "raw": "LTE",
+        "spoken": "el ti i"
+      },
+      {
+        "kind": "technology",
+        "raw": "4G",
+        "spoken": "to'rt ji"
+      }
+    ]
+  },
+  {
+    "label": "17_streaming",
+    "raw": "Kino xizmatida premium obuna faollashtirildi.",
+    "normalized": "Kino xizmatida premium obuna faollashtirildi.",
+    "telecom_entities": []
+  },
+  {
+    "label": "18_verification_code",
+    "raw": "Tasdiqlash kodi 4 8 2 7 1 9.",
+    "normalized": "Tasdiqlash kodi to'rt sakkiz ikki yetti bir to'qqiz.",
+    "telecom_entities": [
+      {
+        "kind": "code",
+        "raw": "Tasdiqlash kodi 4 8 2 7 1 9",
+        "spoken": "Tasdiqlash kodi to'rt sakkiz ikki yetti bir to'qqiz"
+      }
+    ]
+  },
+  {
+    "label": "19_pin_instruction",
+    "raw": "PIN-kodingizni hech kimga aytmang.",
+    "normalized": "pi ay en kodingizni hech kimga aytmang.",
+    "telecom_entities": [
+      {
+        "kind": "pin_compound",
+        "raw": "PIN-kodingizni",
+        "spoken": "pi ay en kodingizni"
+      }
+    ]
+  },
+  {
+    "label": "20_long_support",
+    "raw": "Murojaatingiz qabul qilindi. So'rovingiz mutaxassislarimiz tomonidan tekshiriladi va natija haqida sizga SMS orqali xabar beriladi. Rahmat.",
+    "normalized": "Murojaatingiz qabul qilindi. So'rovingiz mutaxassislarimiz tomonidan tekshiriladi va natija haqida sizga es em es orqali xabar beriladi. Rahmat.",
+    "telecom_entities": [
+      {
+        "kind": "technology",
+        "raw": "SMS",
+        "spoken": "es em es"
+      }
+    ]
+  }
+]

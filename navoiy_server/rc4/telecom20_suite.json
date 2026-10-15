@@ -1,0 +1,87 @@
+{
+  "suite_id": "navoiy_telecom_20_v1",
+  "source_artifact": "navoiy-v6b-step3.1-telecom20.zip",
+  "source_code_sha256": "143a8f7f596d75ee90f11382aaeaf590c4c0af189adfb1131aaea4bf35a2474a",
+  "cases": [
+    {
+      "label": "01_short_ack",
+      "raw": "Ha, albatta."
+    },
+    {
+      "label": "02_greeting",
+      "raw": "Assalomu alaykum, Beeline kompaniyasiga xush kelibsiz."
+    },
+    {
+      "label": "03_balance_amount",
+      "raw": "Hisobingizda 25 000 so'm mavjud."
+    },
+    {
+      "label": "04_price",
+      "raw": "Tarifning oylik abonent to'lovi 49 900 so'm."
+    },
+    {
+      "label": "05_phone_number",
+      "raw": "Sizning aloqa raqamingiz 90 123 45 67."
+    },
+    {
+      "label": "06_date",
+      "raw": "Xizmat 15.10.2026 sanasidan boshlab faol bo'ladi."
+    },
+    {
+      "label": "07_time",
+      "raw": "Operator siz bilan soat 14:30 da bog'lanadi."
+    },
+    {
+      "label": "08_ordinal",
+      "raw": "Bu sizning uchinchi murojaatingiz."
+    },
+    {
+      "label": "09_internet_volume",
+      "raw": "Tarifga 25 gigabayt internet kiritilgan."
+    },
+    {
+      "label": "10_minutes",
+      "raw": "Sizga 1 500 daqiqa qo'ng'iroq limiti beriladi."
+    },
+    {
+      "label": "11_sms",
+      "raw": "Tarif doirasida 500 SMS mavjud."
+    },
+    {
+      "label": "12_tariff_combo",
+      "raw": "Oyiga 75 000 so'm evaziga 30 gigabayt, 2 000 daqiqa va 1 000 SMS olasiz."
+    },
+    {
+      "label": "13_delivery",
+      "raw": "SIM-karta 18.10.2026 kuni soat 10:00 dan 12:00 gacha yetkazib beriladi."
+    },
+    {
+      "label": "14_roaming",
+      "raw": "Rouming xizmati Rossiya, Qozog'iston va Turkiyada mavjud."
+    },
+    {
+      "label": "15_app_name",
+      "raw": "Beeline Uzbekistan ilovasida My Beeline bo'limini oching."
+    },
+    {
+      "label": "16_technology",
+      "raw": "Telefoningizda LTE yoki 4G tarmog'ini yoqing."
+    },
+    {
+      "label": "17_streaming",
+      "raw": "Kino xizmatida premium obuna faollashtirildi."
+    },
+    {
+      "label": "18_verification_code",
+      "raw": "Tasdiqlash kodi 4 8 2 7 1 9."
+    },
+    {
+      "label": "19_pin_instruction",
+      "raw": "PIN-kodingizni hech kimga aytmang."
+    },
+    {
+      "label": "20_long_support",
+      "raw": "Murojaatingiz qabul qilindi. So'rovingiz mutaxassislarimiz tomonidan tekshiriladi va natija haqida sizga SMS orqali xabar beriladi. Rahmat."
+    }
+  ]
+}

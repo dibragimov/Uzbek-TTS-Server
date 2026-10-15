@@ -1,0 +1,6 @@
+# Added on top of soar97/triton-cosyvoice:25.06 - the exact set RC4 ran with on Modal.
+fastapi==0.115.12
+uvicorn==0.34.2
+pydantic==2.11.7
+inflect==7.3.1
+httpx==0.28.1
